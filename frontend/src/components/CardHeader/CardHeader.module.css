@@ -1,0 +1,22 @@
+.card_title {
+    margin-bottom: 15px;
+}
+
+.card_action {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+
+    input {
+        flex: 1;
+        border-radius: var(--radius);
+        border: none;
+        padding: 5px 10px;
+    }
+
+    button {
+        padding: 5px 10px;
+        background-color: var(--color-primary);
+        border-radius: var(--radius);
+    }
+}

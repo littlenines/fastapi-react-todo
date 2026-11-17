@@ -1,0 +1,35 @@
+.card_items {
+    background-color: var(--color-bg-item);
+    border-radius: var(--radius);
+    padding: 10px;
+}
+
+.card_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    p {
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+}
+
+.card_item:not(:last-child) {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.card_item_actions {
+    display: flex;
+    gap: 15px;
+    flex-shrink: 0;
+
+}
+
+.card_item_actions_delete {
+    color: var(--color-danger);
+}

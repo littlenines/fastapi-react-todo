@@ -1,0 +1,18 @@
+:root {
+    --color-bg: #121212;
+    --color-surface: #1e1e1e;
+    --color-text: #e6e6e6;
+    --color-text-muted: #a0a0a0;
+    --color-accent: #7c9cff;
+
+    --color-bg-card: #092328;
+    --color-bg-item: #273338;
+    --color-primary: #22396f;
+    --color-danger: #830000;
+    --color-success: #16a34a;
+    --color-error: #dc2626;
+    --color-border: #808080;
+    --color-light: #f1f5f9;
+
+    --radius: 10px;
+}

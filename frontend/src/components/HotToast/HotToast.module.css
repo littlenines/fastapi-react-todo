@@ -1,0 +1,22 @@
+.hot_toasts {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hot_toast {
+    padding: 14px 16px;
+    border-radius: 6px;
+    color: var(--color-light);
+}
+
+.hot_toast_success {
+    background: var(--color-success);
+}
+
+.hot_toast_error {
+    background: var(--color-error);
+}
